@@ -1,0 +1,41 @@
+body {
+
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #181818, #a5a5a5);
+    background-size: 100% 100%;
+    background-position: center bottom;
+}
+
+.cajaPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: rgb(102, 41, 143);;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 300px;
+    height: 200px;
+}
+
+.reloj {
+    border: 0.2rem solid rgb(0, 0, 0);
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    font-family: monospace;
+    font-size: 3rem;
+    color:black;
+}
+.nombre {
+    font-size: 2rem;
+}
